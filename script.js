@@ -8,7 +8,7 @@ function validar(nome,descricao,url){
         escrever(nome,descricao,url);
         resposta.innerHTML = "";
     } else {
-        resposta.innerHTML = `<strong>Necessário Preencher\n os dados do Form!</strong>`;
+        resposta.innerHTML = `<strong>Preencha os campos!</strong>`;
     }
 }
 function ler(){
